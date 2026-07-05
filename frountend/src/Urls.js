@@ -1,0 +1,1 @@
+export const baseUrl = "https://foodyweb-qt3f.onrender.com";
