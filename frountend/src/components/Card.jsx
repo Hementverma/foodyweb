@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useDispatchCart, useCart } from "./ContextReducer";
 import { cartIconRef } from "./cartAnimationRef";
 
@@ -12,9 +12,9 @@ export default function Card(props) {
   const options = props.options;
   const priceOptions = Object.keys(options);
 
-  const [qty, setQty] = useState(1);
-  const [size, setSize] = useState("");
-  const [toast, setToast] = useState(false);
+  const qty = 1;
+  const [size, setSize] = React.useState("");
+  const [toast, setToast] = React.useState(false);
 
   const rating = props.foodItem.rating || 4.5;
   const fullStars = Math.floor(rating);
