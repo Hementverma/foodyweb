@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f3f4f6;
+  font-family: sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #455064;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a {
+  text-decoration: none;
+}
